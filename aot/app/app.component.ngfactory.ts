@@ -36,7 +36,7 @@ class _View_AppComponent_Host0 extends import1.AppView<any> {
     super(_View_AppComponent_Host0,renderType_AppComponent_Host,import6.ViewType.HOST,viewUtils,parentInjector,declarationEl,import7.ChangeDetectorStatus.CheckAlways);
   }
   createInternal(rootSelector:string):import3.AppElement {
-    this._el_0 = this.selectOrCreateHostElement('my-app',rootSelector,(null as any));
+    this._el_0 = this.selectOrCreateHostElement('sg-app',rootSelector,(null as any));
     this._appEl_0 = new import3.AppElement(0,(null as any),this,this._el_0);
     var compView_0:any = viewFactory_AppComponent0(this.viewUtils,this.injector(0),this._appEl_0);
     this._AppComponent_0_4 = new Wrapper_AppComponent();
@@ -59,7 +59,7 @@ function viewFactory_AppComponent_Host0(viewUtils:import4.ViewUtils,parentInject
   if ((renderType_AppComponent_Host === (null as any))) { (renderType_AppComponent_Host = viewUtils.createRenderComponentType('',0,import8.ViewEncapsulation.None,([] as any[]),{})); }
   return new _View_AppComponent_Host0(viewUtils,parentInjector,declarationEl);
 }
-export const AppComponentNgFactory:import9.ComponentFactory<import0.AppComponent> = new import9.ComponentFactory<import0.AppComponent>('my-app',viewFactory_AppComponent_Host0,import0.AppComponent);
+export const AppComponentNgFactory:import9.ComponentFactory<import0.AppComponent> = new import9.ComponentFactory<import0.AppComponent>('sg-app',viewFactory_AppComponent_Host0,import0.AppComponent);
 const styles_AppComponent:any[] = ([] as any[]);
 var renderType_AppComponent:import2.RenderComponentType = (null as any);
 class _View_AppComponent0 extends import1.AppView<import0.AppComponent> {

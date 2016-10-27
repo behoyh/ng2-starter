@@ -3,20 +3,19 @@
  * Do not edit.
  */
 /* tslint:disable */
-"use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var import0 = require('../../app/app.component');
-var import1 = require('@angular/core/src/linker/view');
-var import3 = require('@angular/core/src/linker/element');
-var import6 = require('@angular/core/src/linker/view_type');
-var import7 = require('@angular/core/src/change_detection/change_detection');
-var import8 = require('@angular/core/src/metadata/view');
-var import9 = require('@angular/core/src/linker/component_factory');
-var Wrapper_AppComponent = (function () {
+import * as import0 from '../../app/app.component';
+import * as import1 from '@angular/core/src/linker/view';
+import * as import3 from '@angular/core/src/linker/element';
+import * as import6 from '@angular/core/src/linker/view_type';
+import * as import7 from '@angular/core/src/change_detection/change_detection';
+import * as import8 from '@angular/core/src/metadata/view';
+import * as import9 from '@angular/core/src/linker/component_factory';
+export var Wrapper_AppComponent = (function () {
     function Wrapper_AppComponent() {
         this.changed = false;
         this.context = new import0.AppComponent();
@@ -28,7 +27,6 @@ var Wrapper_AppComponent = (function () {
     };
     return Wrapper_AppComponent;
 }());
-exports.Wrapper_AppComponent = Wrapper_AppComponent;
 var renderType_AppComponent_Host = null;
 var _View_AppComponent_Host0 = (function (_super) {
     __extends(_View_AppComponent_Host0, _super);
@@ -36,7 +34,7 @@ var _View_AppComponent_Host0 = (function (_super) {
         _super.call(this, _View_AppComponent_Host0, renderType_AppComponent_Host, import6.ViewType.HOST, viewUtils, parentInjector, declarationEl, import7.ChangeDetectorStatus.CheckAlways);
     }
     _View_AppComponent_Host0.prototype.createInternal = function (rootSelector) {
-        this._el_0 = this.selectOrCreateHostElement('my-app', rootSelector, null);
+        this._el_0 = this.selectOrCreateHostElement('sg-app', rootSelector, null);
         this._appEl_0 = new import3.AppElement(0, null, this, this._el_0);
         var compView_0 = viewFactory_AppComponent0(this.viewUtils, this.injector(0), this._appEl_0);
         this._AppComponent_0_4 = new Wrapper_AppComponent();
@@ -64,7 +62,7 @@ function viewFactory_AppComponent_Host0(viewUtils, parentInjector, declarationEl
     }
     return new _View_AppComponent_Host0(viewUtils, parentInjector, declarationEl);
 }
-exports.AppComponentNgFactory = new import9.ComponentFactory('my-app', viewFactory_AppComponent_Host0, import0.AppComponent);
+export var AppComponentNgFactory = new import9.ComponentFactory('sg-app', viewFactory_AppComponent_Host0, import0.AppComponent);
 var styles_AppComponent = [];
 var renderType_AppComponent = null;
 var _View_AppComponent0 = (function (_super) {
@@ -80,11 +78,10 @@ var _View_AppComponent0 = (function (_super) {
     };
     return _View_AppComponent0;
 }(import1.AppView));
-function viewFactory_AppComponent0(viewUtils, parentInjector, declarationEl) {
+export function viewFactory_AppComponent0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_AppComponent === null)) {
         (renderType_AppComponent = viewUtils.createRenderComponentType('', 0, import8.ViewEncapsulation.None, styles_AppComponent, {}));
     }
     return new _View_AppComponent0(viewUtils, parentInjector, declarationEl);
 }
-exports.viewFactory_AppComponent0 = viewFactory_AppComponent0;
 //# sourceMappingURL=app.component.ngfactory.js.map

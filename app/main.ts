@@ -7,5 +7,5 @@ import { AppModule } from './app.module';
 PLATFORM.bootstrapModule(AppModule);
 
 // AOT
-//import { AppModuleNgFactory } from '../aot/app/app.module.ngfactory';
+// import { AppModuleNgFactory } from '../aot/app/app.module.ngfactory';
 // PLATFORM.bootstrapModuleFactory(AppModuleNgFactory);
