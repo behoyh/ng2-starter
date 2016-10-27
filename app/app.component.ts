@@ -1,8 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
     moduleId: module.id,
-    selector: 'my-app',
+    selector: 'sg-app',
     templateUrl: './app.html'
 })
-export class AppComponent{}
+export class AppComponent {}
