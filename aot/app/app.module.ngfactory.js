@@ -3,47 +3,48 @@
  * Do not edit.
  */
 /* tslint:disable */
+"use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-import * as import0 from '@angular/core/src/linker/ng_module_factory';
-import * as import1 from '../../app/app.module';
-import * as import2 from '@angular/common/src/common_module';
-import * as import3 from '@angular/core/src/application_module';
-import * as import4 from '@angular/platform-browser/src/browser';
-import * as import5 from '@angular/forms/src/directives';
-import * as import6 from '@angular/forms/src/form_providers';
-import * as import7 from '@angular/common/src/localization';
-import * as import8 from '@angular/core/src/application_init';
-import * as import9 from '@angular/core/src/testability/testability';
-import * as import10 from '@angular/core/src/application_ref';
-import * as import11 from '@angular/core/src/linker/compiler';
-import * as import12 from '@angular/platform-browser/src/dom/events/hammer_gestures';
-import * as import13 from '@angular/platform-browser/src/dom/events/event_manager';
-import * as import14 from '@angular/platform-browser/src/dom/shared_styles_host';
-import * as import15 from '@angular/platform-browser/src/dom/dom_renderer';
-import * as import16 from '@angular/platform-browser/src/security/dom_sanitization_service';
-import * as import17 from '@angular/core/src/linker/view_utils';
-import * as import18 from '@angular/platform-browser/src/browser/title';
-import * as import19 from '@angular/forms/src/form_builder';
-import * as import20 from '@angular/forms/src/directives/radio_control_value_accessor';
-import * as import22 from './app.component.ngfactory';
-import * as import23 from '@angular/core/src/application_tokens';
-import * as import24 from '@angular/platform-browser/src/dom/events/dom_events';
-import * as import25 from '@angular/platform-browser/src/dom/events/key_events';
-import * as import26 from '@angular/core/src/zone/ng_zone';
-import * as import27 from '@angular/platform-browser/src/dom/debug/ng_probe';
-import * as import28 from '@angular/core/src/console';
-import * as import29 from '@angular/core/src/i18n/tokens';
-import * as import30 from '@angular/core/src/error_handler';
-import * as import31 from '@angular/platform-browser/src/dom/dom_tokens';
-import * as import32 from '@angular/platform-browser/src/dom/animation_driver';
-import * as import33 from '@angular/core/src/render/api';
-import * as import34 from '@angular/core/src/security';
-import * as import35 from '@angular/core/src/change_detection/differs/iterable_differs';
-import * as import36 from '@angular/core/src/change_detection/differs/keyvalue_differs';
+var import0 = require('@angular/core/src/linker/ng_module_factory');
+var import1 = require('../../app/app.module');
+var import2 = require('@angular/common/src/common_module');
+var import3 = require('@angular/core/src/application_module');
+var import4 = require('@angular/platform-browser/src/browser');
+var import5 = require('@angular/forms/src/directives');
+var import6 = require('@angular/forms/src/form_providers');
+var import7 = require('@angular/common/src/localization');
+var import8 = require('@angular/core/src/application_init');
+var import9 = require('@angular/core/src/testability/testability');
+var import10 = require('@angular/core/src/application_ref');
+var import11 = require('@angular/core/src/linker/compiler');
+var import12 = require('@angular/platform-browser/src/dom/events/hammer_gestures');
+var import13 = require('@angular/platform-browser/src/dom/events/event_manager');
+var import14 = require('@angular/platform-browser/src/dom/shared_styles_host');
+var import15 = require('@angular/platform-browser/src/dom/dom_renderer');
+var import16 = require('@angular/platform-browser/src/security/dom_sanitization_service');
+var import17 = require('@angular/core/src/linker/view_utils');
+var import18 = require('@angular/platform-browser/src/browser/title');
+var import19 = require('@angular/forms/src/form_builder');
+var import20 = require('@angular/forms/src/directives/radio_control_value_accessor');
+var import22 = require('./app.component.ngfactory');
+var import23 = require('@angular/core/src/application_tokens');
+var import24 = require('@angular/platform-browser/src/dom/events/dom_events');
+var import25 = require('@angular/platform-browser/src/dom/events/key_events');
+var import26 = require('@angular/core/src/zone/ng_zone');
+var import27 = require('@angular/platform-browser/src/dom/debug/ng_probe');
+var import28 = require('@angular/core/src/console');
+var import29 = require('@angular/core/src/i18n/tokens');
+var import30 = require('@angular/core/src/error_handler');
+var import31 = require('@angular/platform-browser/src/dom/dom_tokens');
+var import32 = require('@angular/platform-browser/src/dom/animation_driver');
+var import33 = require('@angular/core/src/render/api');
+var import34 = require('@angular/core/src/security');
+var import35 = require('@angular/core/src/change_detection/differs/iterable_differs');
+var import36 = require('@angular/core/src/change_detection/differs/keyvalue_differs');
 var AppModuleInjector = (function (_super) {
     __extends(AppModuleInjector, _super);
     function AppModuleInjector(parent) {
@@ -390,5 +391,5 @@ var AppModuleInjector = (function (_super) {
     };
     return AppModuleInjector;
 }(import0.NgModuleInjector));
-export var AppModuleNgFactory = new import0.NgModuleFactory(AppModuleInjector, import1.AppModule);
+exports.AppModuleNgFactory = new import0.NgModuleFactory(AppModuleInjector, import1.AppModule);
 //# sourceMappingURL=app.module.ngfactory.js.map

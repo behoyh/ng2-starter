@@ -5,4 +5,6 @@ import { Component, OnInit } from '@angular/core';
     selector: 'sg-app',
     templateUrl: './app.html'
 })
-export class AppComponent {}
+export class AppComponent {
+    constructor(){}
+}
