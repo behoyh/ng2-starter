@@ -111,7 +111,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include=".gitignore" />
     <Content Include="aot\app\app.component.ngfactory.js" />
     <Content Include="aot\app\app.module.ngfactory.js" />
     <Content Include="aot\dist\build.js" />
@@ -144,9 +143,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".travis.yml" />
     <Content Include="package.json" />
-    <Content Include="README.md" />
     <Content Include="tsconfig-aot.json" />
     <Content Include="tsconfig.json" />
     <Content Include="tslint.json" />
